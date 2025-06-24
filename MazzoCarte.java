@@ -33,5 +33,8 @@ public class MazzoCarte {
         return carte_mazzo.isEmpty();
     }
 
+    public void BriscolaInFondo(Carta briscola){
+        carte_mazzo.add(briscola);
+    }
 
 }
