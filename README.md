@@ -1,6 +1,6 @@
-## 🔧 Esecuzione da terminale (senza IntelliJ)
+## 🔧 Esecuzione da terminale
 
-Per compilare ed eseguire il progetto da terminale su Linux (es. EndeavourOS), usa lo script `run.sh`:
+Per compilare ed eseguire il progetto da terminale su Linux, usa lo script `run.sh`:
 
 ```bash
 ./run.sh
