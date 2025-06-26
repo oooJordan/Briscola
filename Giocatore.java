@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Giocatore {
-    private String Nome;
-    private List<Carta> CarteGiocatore;
+    private final String Nome;
+    private final List<Carta> CarteGiocatore;
 
     public Giocatore(String Nome){
         this.Nome = Nome;
@@ -11,7 +11,7 @@ public class Giocatore {
 
     public void pescaCarta(MazzoCarte mazzoCarte){
         if(mazzoCarte.getNumeroCarte() != 0){
-            CarteGiocatore.add(mazzoCarte.pescaCarta());
+            CarteGiocatore.add(mazzoCarte.getCarta());
         }
     }
 
